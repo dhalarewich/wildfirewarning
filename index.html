@@ -39,15 +39,29 @@
     padding: 20px;
     margin: 20px 0;
   }
+  table {
+        width: 100%; /* Table width is 100% of its container */
+        border-collapse: collapse; /* Collapses the border */
+        border-spacing: 0; /* Removes the space between borders */
+    }
+
+    th, td {
+        border: 1px solid #ddd; /* Light gray border for each cell */
+        padding: 8px; /* Padding inside each cell */
+        text-align: left; /* Aligns text to the left */
+    }
+
+    th {
+        background-color: #f2f2f2; /* Light gray background for header cells */
+    }
+</styl
   @media (min-width: 768px) {
     .top-section {
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
-    .top-section .text {
-      width: 50%;
-    }
+
     .top-section img {
       width: 45%;
     }
