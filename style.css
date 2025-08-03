@@ -98,3 +98,17 @@ img.logo {
 .info-box ul li {
   margin-bottom: 4px;
 }
+
+/* Emphasized first list of key points */
+.key-points {
+  font-size: 1.1rem;     /* larger text for emphasis */
+  line-height: 1.5;
+  margin-left: 0;
+  padding-left: 1.2em;   /* standard indentation for bullets */
+  list-style-type: disc;
+}
+
+.key-points li {
+  margin-bottom: 8px;    /* extra spacing between items */
+  font-weight: 600;      /* slightly bolder text */
+}
