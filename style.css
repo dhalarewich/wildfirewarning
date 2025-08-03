@@ -124,5 +124,5 @@ img.logo {
   height: 0;
   border-top: 6px solid transparent;
   border-bottom: 6px solid transparent;
-  border-right: 10px solid #f3d188; /* colour of the triangle bullet */
+  border-left: 10px solid #f3d188; /* coloured side on the left makes the point face right */
 }
