@@ -99,16 +99,30 @@ img.logo {
   margin-bottom: 4px;
 }
 
-/* Emphasized first list of key points */
+/* Emphasized first list of key points with triangle bullets */
 .key-points {
-  font-size: 1.1rem;     /* larger text for emphasis */
-  line-height: 1.5;
+  list-style: none;        /* remove default bullets */
   margin-left: 0;
-  padding-left: 1.2em;   /* standard indentation for bullets */
-  list-style-type: disc;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 .key-points li {
-  margin-bottom: 8px;    /* extra spacing between items */
-  font-weight: 500;      /* slightly bolder text */
+  position: relative;
+  padding-left: 1.4em;     /* room for the triangle */
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.key-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 10px solid #f3d188; /* colour of the triangle bullet */
 }
