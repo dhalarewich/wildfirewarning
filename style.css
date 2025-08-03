@@ -74,3 +74,27 @@ img.logo {
   max-width: 200px;
   margin: 20px auto;
 }
+
+/* Info box styling */
+.info-box {
+  background-color: #fff6e5;      /* light yellow/orange shade */
+  border: 1px solid #f3d188;      /* light orange border */
+  border-radius: 8px;             /* rounded corners */
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.info-box h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.info-box ul {
+  margin: 0;
+  padding-left: 20px;             /* indent list items */
+}
+
+.info-box ul li {
+  margin-bottom: 4px;
+}
